@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pocetna</title>
+    <link href="stil.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="funkcije.js"></script>
+</head>
+<body>
+    <h1>Domace zivotinje</h1>
+    <br />
+    <a href="autor.html" target="_blank">O autoru</a><br />
+    <a href="uputstvo.html" target="_blank">Uputstvo</a><br />
+    <img id="pozadina" src="slike/FARMA.jpg" alt="pozadina" />
+
+    <img id="konj" src="slike/konj.jpg" alt="konj" onclick="OpisZivotinje('konj')" onmouseover="PustiZvuk('akonj')" onmouseout="ZaustaviZvuk('akonj')"/>
+    <img id="koza" src="slike/koza.jpg" alt="koza" onclick="OpisZivotinje('koza')" onmouseover="PustiZvuk('akoza')"onmouseout="ZaustaviZvuk('akoza')"/>
+    <img id="krava" src="slike/krava.jpg" alt="krava" onclick="OpisZivotinje('krava')"onmouseover="PustiZvuk('akrava')"onmouseout="ZaustaviZvuk('akrava')"/>
+    <img id="ovca" src="slike/ovca.png" alt="ovca" onclick="OpisZivotinje('ovca')" onmouseover="PustiZvuk('aovca')"onmouseout="ZaustaviZvuk('aovca')"/>
+    <img id="petao" src="slike/petao.jpg" onclick="OpisZivotinje('petao')" onmouseover="PustiZvuk('apetao')"onmouseout="ZaustaviZvuk('apetao')"/>
+
+
+    <audio id="akonj" >
+        <source src="zvuci/konj.wav" />
+    </audio>
+    <audio id="akoza" >
+        <source src="zvuci/koza.wav" />
+    </audio>
+    <audio id="akrava" >
+        <source src="zvuci/krava.wav" />
+    </audio>
+    <audio id="aovca" >
+        <source src="zvuci/ovca.wav" />
+    </audio>
+    <audio id="apetao" >
+        <source src="zvuci/petao.wav" />
+    </audio>
+
+</body>
+</html>

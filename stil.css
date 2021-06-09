@@ -1,0 +1,34 @@
+﻿body {
+    background-color: lime;
+}
+#pozadina{
+    width: 100%;
+    height: auto;
+}
+#koza{
+    position: absolute;
+    left: 10%;
+    top: 100%;
+}
+#krava {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 350px;
+    height: auto;
+}
+#konj {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+#petao {
+    position: absolute;
+    left: 66%;
+    top: 88%;
+}
+#ovca {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
